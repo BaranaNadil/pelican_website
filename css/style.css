@@ -32,3 +32,8 @@ section:nth-of-type(odd) {
 }
 
 /* these lines make the sections to snap with the mouse scrolls */
+
+
+.car{
+    margin-top: 20px;
+}
