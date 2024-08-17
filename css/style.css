@@ -35,5 +35,8 @@ section:nth-of-type(odd) {
 
 
 .car{
+
+    background-color: blue;
     margin-top: 20px;
+
 }
