@@ -1,5 +1,11 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../resources/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 body {
     background-color: #FFFAFF;
+    font-family: "Montserrat";
 }
 
 html {
@@ -31,5 +37,6 @@ section:nth-of-type(odd) {
 .car{
 
     background-color: blue;
+    margin-top: 20px;
 
 }
