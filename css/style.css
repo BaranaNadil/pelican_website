@@ -1,10 +1,28 @@
-section{
-    height: 100vh;
-}
-
-body{
-
+body {
     background-color: #FFFAFF;
-
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
+
+
+/* IMPORTANT */
+/* these lines make the sections to snap with the mouse scrolls */
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+section:nth-of-type(even) {
+    color: white;
+    background: black;
+}
+
+section:nth-of-type(odd) {
+    color: black;
+    background: white;
+}
+
+/* these lines make the sections to snap with the mouse scrolls */
