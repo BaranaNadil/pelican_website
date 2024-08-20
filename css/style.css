@@ -12,11 +12,11 @@ html {
     scroll-snap-type: y mandatory;
 }
 
-
 /* IMPORTANT */
 /* these lines make the sections to snap with the mouse scrolls */
 section {
-    height: 100vh;
+    min-height: 100vh;
+    max-height: fit-content;
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
@@ -34,6 +34,64 @@ section:nth-of-type(odd) {
 /* these lines make the sections to snap with the mouse scrolls */
 
 
-.car{
-    margin-top: 20px;
+h2 {
+    color: #0f014d;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.card-text {
+    text-decoration: none;
+}
+
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card1bg {
+    background-image: url("../resources/man-working-table.jpg");
+    background-size: cover;
+}
+
+.card2bg {
+    background-image: url("../resources/3966823.jpg");
+    background-size: cover;
+}
+
+.card3bg {
+    background-image: url("../resources/representations-user-experience-interface-design.jpg");
+    background-size: cover;
+}
+
+.card1img {
+    display: none;
+}
+
+@media (max-width:767px) {
+    .card1img {
+        display: block;
+    }
+}
+
+.services-item {
+    filter: grayscale() blur(5px);
+}
+
+.services-card {
+    position: relative;
+    scale: 0.85;
+    opacity: 0.5;
+    margin: -20px;
+    border-color: white;
+}
+
+.service-text-desc,
+.service-text-learn {
+    filter: blur(5px);
 }
