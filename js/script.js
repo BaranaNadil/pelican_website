@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         opacity: 0.5,
         borderColor: "white",
       });
-      gsap.to(card.querySelector(".services-item"), {
+      gsap.to(cardItem, {
         filter: "grayscale() blur(5px)",
         duration: 0.5,
         ease: "power2.out",
