@@ -77,6 +77,3 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
-
-// left to do
-// change the blur effect on all cards. add blur to text except for the titles change title colors on hover
